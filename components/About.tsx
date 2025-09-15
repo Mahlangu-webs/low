@@ -19,7 +19,7 @@ const About = forwardRef<HTMLElement, AboutProps>(({ profileImage }, ref) => {
                 <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
                     <div className="w-full md:w-1/3 flex justify-center">
                        <img 
-                            src={profileImage}
+                            src={https://capeitinitiative-my.sharepoint.com/:i:/g/personal/siyabonga_mahlangu_capaciti_org_za/ES_eRl6-I4VHilzLJFw2PS8BdP_KvoWnoyhQebVrXCrKCw?e=QXfImq}
                             alt="Siyabonga Mahlangu" 
                             className="rounded-full shadow-2xl object-cover w-64 h-64 md:w-80 md:h-80" 
                         />
