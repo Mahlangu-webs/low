@@ -18,11 +18,12 @@ const About = forwardRef<HTMLElement, AboutProps>(({ profileImage }, ref) => {
                 <h2 className="text-4xl font-bold text-center mb-12 text-slate-800">About Me</h2>
                 <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
                     <div className="w-full md:w-1/3 flex justify-center">
-                       <img 
-                            src={./public/WhatsApp Image 2025-09-11 at 14.08.42.jpeg}
-                            alt="Siyabonga Mahlangu" 
-                            className="rounded-full shadow-2xl object-cover w-64 h-64 md:w-80 md:h-80" 
-                        />
+                      <img
+  src="/WhatsApp Image 2025-09-11 at 14.08.42.jpeg"
+  alt="Siyabonga Mahlangu" 
+  className="rounded-full shadow-2xl object-cover w-64 h-64 md:w-80 md:h-80" 
+/>
+
                     </div>
                     <div className="w-full md:w-2/3">
                         <h3 className="text-2xl font-semibold text-slate-700 mb-4">A Passionate Developer & Analyst on a Mission</h3>
